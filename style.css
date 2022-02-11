@@ -4,6 +4,13 @@ body {
 
 #item1 {
     fill: cornflowerblue;
+    position: relative;
+}
+
+.inside-text {
+    position: absolute;
+    top: 122px;
+    left: 80px;
 }
 
 #item2 {
@@ -35,4 +42,8 @@ body {
 svg {
     width: 300px;
     height: 300px;
+}
+#click-count {
+    font-size: 20px;
+    font-weight: bold;
 }
