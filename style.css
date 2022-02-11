@@ -3,8 +3,10 @@ body {
 }
 
 #item1 {
-    fill: cornflowerblue;
+    fill: lightskyblue;
     position: relative;
+    /*border: 5px solid black;*/
+    /*border-radius: 170px;*/
 }
 
 .inside-text {
@@ -14,11 +16,13 @@ body {
 }
 
 #item2 {
-    fill: blueviolet;
+    fill: violet;
 }
 
 #item3 {
     fill: darkturquoise;
+    border: 5px solid black;
+    border-radius: 170px;
 }
 
 #header1 {
@@ -47,3 +51,8 @@ svg {
     font-size: 20px;
     font-weight: bold;
 }
+
+/*
+TODO:
+1. Add in JS functions for remaining 2 circles
+*/
